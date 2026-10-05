@@ -1,0 +1,6 @@
+{
+  "name": "EditorialPost Studio - Social & News Graphic Creator",
+  "description": "Create editorial social media posts, breaking news graphics, and headline banners with custom background overlays, word-level color highlighting, typography controls, and high-resolution export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

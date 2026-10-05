@@ -1,0 +1,130 @@
+import { StockImage } from '../types';
+
+export const STOCK_IMAGES: StockImage[] = [
+  // Industrial & Economics (Gas prices / factory)
+  {
+    id: 'gas-plant',
+    label: 'Industrial Gas & Chemical Plant',
+    category: 'Economy & City',
+    url: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=400&q=80',
+    alt: 'Refinery pipeline pipes and smoke',
+  },
+  {
+    id: 'stock-market',
+    label: 'Stock Market Trading Board',
+    category: 'Economy & City',
+    url: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=400&q=80',
+    alt: 'Financial candlestick chart screens',
+  },
+  {
+    id: 'modern-city-skyscrapers',
+    label: 'Modern Skyline & Financial District',
+    category: 'Economy & City',
+    url: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=400&q=80',
+    alt: 'Glass skyscraper looking up',
+  },
+  // Disaster & Fire (Firefighter / Burning House / Rubble)
+  {
+    id: 'burning-house-fire',
+    label: 'Burning House & Smoke Rescue',
+    category: 'Disaster & Fire',
+    url: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=400&q=80',
+    alt: 'House engulfed in flames and thick smoke',
+  },
+  {
+    id: 'firefighter-action',
+    label: 'Firefighter in Heavy Smoke',
+    category: 'Disaster & Fire',
+    url: 'https://images.unsplash.com/photo-1543083477-4f785aeafaa9?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1543083477-4f785aeafaa9?auto=format&fit=crop&w=400&q=80',
+    alt: 'Emergency response firefighter in gear',
+  },
+  {
+    id: 'war-rubble-buildings',
+    label: 'Destroyed Buildings & Earthquake Rubble',
+    category: 'Disaster & Fire',
+    url: 'https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=400&q=80',
+    alt: 'Crumbled concrete and ruins',
+  },
+  // Politics & Protest
+  {
+    id: 'protest-crowd-signs',
+    label: 'Mass Street Protest with Signs',
+    category: 'Politics & Protest',
+    url: 'https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?auto=format&fit=crop&w=400&q=80',
+    alt: 'Demonstrators rallying in the city',
+  },
+  {
+    id: 'press-conference-microphones',
+    label: 'Press Conference Microphones',
+    category: 'Politics & Protest',
+    url: 'https://images.unsplash.com/photo-1551818255-e6e10975bc17?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1551818255-e6e10975bc17?auto=format&fit=crop&w=400&q=80',
+    alt: 'Broadcast journalists microphones',
+  },
+  // Tech & Business
+  {
+    id: 'corporate-meeting-executive',
+    label: 'Corporate Executive in Boardroom',
+    category: 'Tech & Business',
+    url: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80',
+    alt: 'Professional executive in dark suit',
+  },
+  {
+    id: 'mask-pandemic-portrait',
+    label: 'Person Wearing Face Mask Outside',
+    category: 'Tech & Business',
+    url: 'https://images.unsplash.com/photo-1584634731339-252c581abfc5?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1584634731339-252c581abfc5?auto=format&fit=crop&w=400&q=80',
+    alt: 'Woman wearing protective mask outdoors',
+  },
+  {
+    id: 'abstract-ai-servers',
+    label: 'Data Center & Neural Network Server',
+    category: 'Tech & Business',
+    url: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=400&q=80',
+    alt: 'Blue glowing server room rack',
+  },
+  // Nature & Aurora & Environment
+  {
+    id: 'aurora-borealis-sky',
+    label: 'Vibrant Green Aurora Borealis Night Sky',
+    category: 'Nature & Aurora',
+    url: 'https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=400&q=80',
+    alt: 'Green northern lights illuminating Alaska sky',
+  },
+  {
+    id: 'ocean-plastic-beach',
+    label: 'Ocean Beach Litter & Plastic Pollution',
+    category: 'Nature & Aurora',
+    url: 'https://images.unsplash.com/photo-1621451537084-482c73073a0f?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1621451537084-482c73073a0f?auto=format&fit=crop&w=400&q=80',
+    alt: 'Plastic cups and bottles discarded on coastal shore',
+  },
+  {
+    id: 'stormy-thunder-sky',
+    label: 'Dramatic Lightning Storm Cloud',
+    category: 'Nature & Aurora',
+    url: 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=400&q=80',
+    alt: 'Dark storm clouds with purple lightning bolt',
+  },
+  // Minimalist & Market
+  {
+    id: 'busy-market-crowd',
+    label: 'Crowded Outdoor Market Street',
+    category: 'Minimalist',
+    url: 'https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=1600&q=85',
+    thumbnail: 'https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=400&q=80',
+    alt: 'People shopping in busy vibrant city market',
+  },
+];
